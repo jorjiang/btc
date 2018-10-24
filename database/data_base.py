@@ -30,5 +30,3 @@ def test_btc_database():
     btc_database = BtcDatabase()
     btc_database.create_btc_database()
     print(btc_database.data)
-
-test_btc_database()
