@@ -1,5 +1,5 @@
 BlockchainInfoConfig = {
-    "url_header": "https://www.blockchain.com/charts/",
+    "url_header": "https://api.blockchain.info/charts/",
     "ts_charts": ["market-price",
                   "avg-block-size",
                   "n-transactions",
