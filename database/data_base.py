@@ -23,6 +23,7 @@ class BtcDatabase():
         self.data = data
 
     def update_databasa(self):
+        pass
 
 
 def test_btc_database():
