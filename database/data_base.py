@@ -17,7 +17,7 @@ class BtcDatabase():
         data = pd.DataFrame()
         for chart in self.charts:
             chart_url = self.url_header + chart + "?timespan={0}&format={1}".format(self.time_span, self.chart_format)
-            ts = pd.read_csv(chart_url)
+            ts = pd.read_csv(chart_url, header=['time', '{}'.format(chart).replace('-', '_')])
             data = pd.concat([data, ts])
         self.data = data
 
