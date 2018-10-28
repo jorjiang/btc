@@ -36,3 +36,6 @@ BlockchainInfoConfig = {
     "time_span": "all",
     "format": "csv"
 }
+BtcDataConfig = {
+    'blockchaininfo_ts_data_file': '/Users/Jiang.Ji/PycharmProjects/btc/data/blockchaininfo_ts.pkl.z'
+}
