@@ -33,7 +33,7 @@ class WebData():
 
 class BlockchaininfoData(WebData):
     def __init__(self):
-        super().__init__()
+        super().__init__(self)
         self.data_identifier = 'BI'
         self.charts = BlockchainInfoConfig["ts_charts"]
         self.time_span = BlockchainInfoConfig["time_span"]
