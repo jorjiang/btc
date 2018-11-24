@@ -33,8 +33,32 @@ BlockchainInfoConfig = {
                   "estimated-transaction-volume",
                   "estimated-transaction-volume-usd",
                   "my-wallet-n-users"],
+    "url_tail": "",
     "time_span": "all",
     "format": "csv"
+}
+
+BitinfochartConfig = {
+    "url_header": "https://bitinfocharts.com/comparison/bitcoin-",
+    "ts_charts": ['transactions',
+                  'size',
+                  'sentbyaddress',
+                  'difficulty',
+                  'hashrate',
+                  'price',
+                  'mining_profitability',
+                  'sentinusd',
+                  'transactionfees',
+                  'median_transaction_fee',
+                  'confirmationtime',
+                  'marketcap',
+                  'transactionvalue',
+                  'mediantransactionvalue',
+                  'tweets',
+                  'google_trends',
+                  'activeaddresses',
+                  'top100cap'],
+    "url_tail": '.html'
 }
 BtcDataConfig = {
     'blockchaininfo_ts_data_file': '/Users/Jiang.Ji/PycharmProjects/btc/data/blockchaininfo_ts.pkl.z'
